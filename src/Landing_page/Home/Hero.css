@@ -1,0 +1,72 @@
+.hero-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+  display: block;
+    /* Block element banaye */
+  margin: 0 auto;
+  width: 80%;
+  /* Desktop me 80% of container */
+  max-width: 1030px;
+  /* Max width bada kar diya 550px */
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0a3d62;
+  margin-top: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 10px 0 30px 0;
+}
+
+.hero-btn {
+  width: 130px;
+  height: 50px;
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  border-radius: 15px;
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    width: 50%;
+  }
+
+  .hero-image {
+    width: 60%;
+  }
+}

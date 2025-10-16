@@ -1,0 +1,38 @@
+/* Container Spacing */
+.container {
+  max-width: 1200px;
+}
+
+/* Headings */
+h1,
+h3,
+h4 {
+  color: #1a237e;
+  /* deep blue tone */
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+h3,
+h4 {
+  font-weight: 600;
+}
+
+/* Paragraphs */
+.text-muted {
+  color: #6c757d;
+  line-height: 1.5;
+}
+
+/* Image Styling */
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}

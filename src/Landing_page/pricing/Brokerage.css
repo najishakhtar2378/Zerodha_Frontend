@@ -1,0 +1,16 @@
+ul li::marker {
+  color: #007bff;
+  /* Blue dots */
+}
+
+ul li {
+  transition: color 0.2s ease;
+}
+
+ul li:hover {
+  color: #000;
+}
+
+a.text-primary:hover {
+  text-decoration: underline;
+}
